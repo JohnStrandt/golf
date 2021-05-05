@@ -13,10 +13,9 @@ export const rivermoor = [
     hole: 2,
     par: 4,
     tee: [42.774411, -88.223573],
-    green: [42.775941, -88.22776],
     green: {
       front: [],
-      center: [],
+      center: [42.775941, -88.22776],
       back: [],
     },
   },
