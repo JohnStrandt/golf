@@ -32,7 +32,7 @@ function App() {
     if (course[currentHole].dogleg) {
       dogleg = haversine(location, course[currentHole].dogleg);
     }
-    console.log(dogleg);
+    // console.log(dogleg);
     let front = haversine(location, course[currentHole].green.front);
     let center = haversine(location, course[currentHole].green.center);
     let back = haversine(location, course[currentHole].green.back);
